@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6C6C6C"
+    tools:context="shwethasp.com.api_call.activity.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ProgressBar
+            android:id="@+id/progresser_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="100dp"
+            android:visibility="gone" />
+
+
+        <EditText
+            android:id="@+id/login_user_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/edit_text_rounded_corner"
+            android:hint="@string/enter_mobile_no"
+            android:inputType="textNoSuggestions"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+
+            android:textColor="@color/light_gray_text"
+            android:textColorHint="@color/light_gray_text" />
+
+        <EditText
+            android:id="@+id/login_user_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_user_email"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_rounded_corner"
+            android:hint="@string/enter_password"
+            android:inputType="textPassword"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/light_gray_text"
+            android:textColorHint="@color/light_gray_text" />
+
+        <Button
+            android:id="@+id/login_butt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_user_password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_rounded_corner"
+            android:text="@string/logion_but"
+            android:textAllCaps="false"
+            android:textColor="@color/button_text_color" />
+
+        <TextView
+            android:id="@+id/login_forgot_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_butt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:text="@string/forgot_password"
+            android:textColor="@color/app_button_theme" />
+
+        <TextView
+            android:id="@+id/login_signup_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_forgot_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp"
+            android:text="@string/dont_have_account"
+            android:textColor="@color/app_button_theme" />
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

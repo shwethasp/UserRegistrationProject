@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">API_Call</string>
+    <string name="user_name">Enter your Name</string>
+    <string name="user_email">Enter your Email-ID</string>
+    <string name="forgot_password_email_id">Enter Valid email Id</string>
+    <string name="user_password">Choose a Password</string>
+    <string name="signup">Sign Up</string>
+    <string name="enter_password">Enter your Password</string>
+    <string name="enter_mobile_no">Enter your Email Id</string>
+    <string name="logion_but">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="dont_have_account">New User? Sign up here</string>
+    <string name="forgot_password_dialog">Forgot Password</string>
+    <string name="forgot_password_enter_number">Enter your Email Id to get the Login details via mail.</string>
+    <string name="send_but">Send</string>
+    <string name="cancel">Cancel</string>
+</resources>

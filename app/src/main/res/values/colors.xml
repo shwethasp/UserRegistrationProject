@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="light_gray_text">#d9d7d7</color>
+    <color name="button_text_color">#231f20</color>
+    <color name="green_button">#009f4b</color>
+    <color name="app_button_theme">#fab713</color>
+    <color name="light_gray">#d9d7d7</color>
+    <color name="divider_line">#545454</color>
+</resources>

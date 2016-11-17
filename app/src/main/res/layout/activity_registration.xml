@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6C6C6C"
+    tools:context="shwethasp.com.api_call.RegistrationActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <EditText
+            android:id="@+id/signup_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/edit_text_rounded_corner"
+            android:hint="@string/user_name"
+            android:inputType="textNoSuggestions"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/light_gray_text"
+            android:textColorHint="@color/light_gray_text" />
+
+        <EditText
+            android:id="@+id/signup_user_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signup_user_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_rounded_corner"
+            android:hint="@string/forgot_password_email_id"
+            android:inputType="number"
+            android:maxLength="10"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/light_gray_text"
+            android:textColorHint="@color/light_gray_text"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/signup_user_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signup_user_mobile"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_rounded_corner"
+            android:hint="@string/user_email"
+            android:inputType="textNoSuggestions"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:maxLength="100"
+            android:textColor="@color/light_gray_text"
+            android:textColorHint="@color/light_gray_text" />
+
+        <EditText
+            android:id="@+id/signup_user_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signup_user_email"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_rounded_corner"
+            android:hint="@string/user_password"
+            android:inputType="textWebPassword"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/light_gray_text"
+            android:textColorHint="@color/light_gray_text" />
+
+        <Button
+            android:id="@+id/signup_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signup_user_password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_rounded_corner"
+            android:text="@string/signup"
+            android:textAllCaps="false"
+            android:textColor="@color/button_text_color" />
+
+       <!-- <com.dtss.customerapp.utill.CustomTextViewBOLD
+            android:id="@+id/signup_alreadyregistered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signup_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:text="@string/a1ready_registered"
+            android:textColor="@color/app_button_theme" />-->
+    </RelativeLayout>
+
+
+</RelativeLayout>
